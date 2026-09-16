@@ -8,7 +8,7 @@ Number: $0.0546 per resolved contact, 5 shapes, 1 run
 Guardrail:
 Next:
 Still broken: the escalation to human workers is not working as expected right now, the agent still offers rebooking instead.
-Lever: <cost | speed | intelligence>
+Lever: intelligence
 
 ## Priya asked
 

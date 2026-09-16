@@ -16,7 +16,7 @@ from support import (MODEL, SYSTEM_PROMPT, call_local, execute_tool, mcp_client,
 
 MAX_TOOL_CALLS = 8  # Larkspur's own build capped the loop here; then a human takes over.
 
-TONE_ADDENDUM = ""                       # ✏️ Build 4, step 4.1, intelligence lane
+TONE_ADDENDUM = "if the user signals that he has given up on resolution and is threatening with an action, escalate to a human"                       # ✏️ Build 4, step 4.1, intelligence lane
 EXTRA_TOOLS: List[Dict[str, Any]] = [
        
     ]
